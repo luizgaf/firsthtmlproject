@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+}
+#header-home{
+    width: 100%;
+    height: 18vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-header{
+    position: absolute;
+    right: 8%;
+    width: 70%;
+    height: 16%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+
+}
+.header-logo-nav{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 22vh;
+    height: 25vh;
+    left: 20vh;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.header-logo-link{
+    width: 80%;
+    height: 70%;
+    padding-top: 13%;
+}
+.header-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+    height:100%;
+}
+.logo-header{
+    width: 90%;
+    height: 100%;
+}
+.nav-links{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-text{
+    list-style: none;
+    font-family: 'porsche-next';
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-media{
+    width: 100%;
+    height: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-link{
+    width: 100%;
+    height: 100%;
+}
+.menu-link:hover{
+    color: red;
+    text-decoration: underline;
+}
+#section-banner{
+    height: 100%;;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#section-media{
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+a{
+    font-family: 'porsche-next';
+    font-size: 80%;
+    height: 100%;
+    width: 100%;
+}
+#section-cards{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-card{
+    height: 80%;
+    width: 20%;
+}
+.body-card-span{
+    width: 100%;
+    height: 100%;
+}
+.body-card-img-div{
+    height: 70%;
+    width: 100%;
+}
+.body-card-text-div{
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.body-card-text{
+    font-family: 'porsche-next';
+    font-size: 150%;
+    font-weight: lighter;
+}
+.body-card-text:hover{
+    color: red;
+}
+#model-text-top{
+    position: relative;
+    left: 7%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    height: 16vh;
+    font-size: large;
+    font-weight: bolder;
+    font-size: 228%;
+    font-family: 'porsche-next';
+    width: 60%;
+}
+#section-modelos{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.models-card{
+    position: relative;
+}
+.models-card:hover{
+    .model-img{
+        filter: brightness(70%);
+    }
+}
+.models-card:not(hover){
+    animation: name duration timing-function delay iteration-count direction fill-mode; 
+}
+.model-img{
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 0px;
+}
+.model-name{
+    height: 20%;
+    width: 40%;
+    position: absolute;
+    right: 52%;
+    bottom: 70%;
+    font-family: 'porsche-next';
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+}
+.model-see-more{
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 1px white;
+    border-radius: 2px;
+    border-style: solid; 
+    font-family: 'porsche-next';
+    font-size: medium;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.model-see-more:hover{
+    .chev-model{
+        color:crimson;
+    }
+    .model-see-more-text{
+        color: darkblue;
+    }
+    background-color: #F0F0F0;
+}
+.model-see-more-text{
+    position: relative;
+    color: #F0F0F0;
+    left: 6.70px;
+}
+.chev-model{
+    position: relative;
+    bottom: 1.2px;
+    right: 2.70px;
+    color: #F0F0F0;
+    font-size: 120%;
+}
+@font-face {
+    src: url(fonts/porsche-next.otf);
+    font-family: 'porsche-next';    
+    font-weight: normal;
+} 
+#section-final{
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+.final-menu-nav{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+ 
+}
+.final-menu-div{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.final-menu-div-junior{
+    width: 80%;
+    height: 80%;
+ 
+}
+.final-menu-title{
+    font-family: 'porsche-next';
+    font-size: 160%;
+    height: 12%;
+   
+}
+.final-menu-list{
+    padding: 3%;
+    width: 100%;
+    font-family: 'porsche-next';
+    font-size: 18px;
+    list-style-type: disc;
+}
+.final-menu-list:hover{
+    color: red;
+}
+.final-menu-ul{
+    align-items: center;
+}
+#footer-pag{
+    background-color: #0F1418;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-pag-text-div{
+    width: 86%;
+    height: 74%;
+}
+.footer-pag-text-p{
+    background-color: red;
+    width: 50%;
+    height: 3vh;
+}
+.footer-pag-text{
+    color: white;
+    font-family: 'porsche-next';
+    font-size: 100%;
+    font-weight: lighter;
+}
+.footer-link{
+    color: white;
+    font-family: 'porsche-next';
+    font-size: 100%;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+@media (max-width: 1600px){
+    nav#nav-header{
+        left: 30%;
+        width: 60%;
+    }
+    .body-card{
+        height: 65%;
+        width: 20%;
+    }
+}
+@media (max-width: 1270px){
+    nav#nav-header{
+        left: 45%;
+        width: 40%;
+    }
+    .menu-link{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .body-card-img-div{
+        height: 40%;
+        width: 100%;
+    }
+    .body-card{
+        height: 80%;
+        width: 20%;
+    }
+    #section-modelos{
+        height: 50vh;
+        width: 100%;
+        display: inline;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media (max-width: 900px){
+    #section-modelos{
+        height: 50vh;
+        width: 100%;
+        display: inline-block;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .body-card{
+        height: 80%;
+        width: 30%;
+    }
+    #section-final{
+        height: 100vh;
+        display: inline;
+    }
+    .final-menu-nav{
+        justify-content: center;
+        align-items: center;
+        display: inline;
+     
+    }
+    .final-menu-list{
+        padding: 6%;
+        width: 100%;
+        font-family: 'porsche-next';
+        font-size: 20px;
+        list-style-type: disc;
+    }
+    .final-menu-div{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+}
+@media (max-width: 830px){
+    nav#nav-header{
+        display: none;
+    }
+    .header-logo-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: auto;
+    }
+}
+@media (max-width: 420px){
+    #header-home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: auto;
+    }
+    #section-cards{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .body-card{
+        height: 80%;
+        width: 30%;
+    }
+    .body-card-text-div{
+        height: 15vh;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+
+}
